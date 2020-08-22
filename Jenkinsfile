@@ -10,7 +10,7 @@ pipeline {
         }
     }
 }
-tage('DeployToStaging') {
+stage('DeployToStaging') {
             when {
                 branch 'master'
             }
